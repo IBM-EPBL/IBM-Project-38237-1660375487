@@ -1,2 +1,2 @@
 # Create a resume page with html
-  Deployed Link -> agnes-lily-resume.netlify.app
+  Deployed Link --> https://agnes-lily-resume.netlify.app/
