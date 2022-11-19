@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Cache</title>
+    <script>
+        console.log(sessionStorage.getItem("IBM_WAC_DEVICE_ID"))
+    </script>
+</head>
+<body>
+<nav class="navbar py-4 navbar-expand fixed-top" style="background-color: navy;">
+     <div class="container">
+            <span class="navbar-brand text-light">SKILL AND JOB RECOMMENDER</span>
+            <ul class="navbar-nav mr-auto">
+                <a href="/register" class="btn btn-info me-3">Register</a>
+                <a href="/login" class="btn btn-info me-3">Login</a>
+            </ul>
+        </div>   
+</nav>
+{% block content %}{% endblock %}
+
+</body>
+</html>
