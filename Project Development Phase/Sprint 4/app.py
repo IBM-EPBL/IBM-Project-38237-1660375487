@@ -110,7 +110,7 @@ def sendMail():
             subject='You have applied successfully',
             html_content='<div><strong>Good day, Your application has been successfully submitted. Stay calm and hope for the best.</strong></div>')
         try:
-            sg = SendGridAPIClient("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")
+            sg = SendGridAPIClient("SENDGRIDAPICLIENT")
             response = sg.send(message)
             print(response.status_code,"successfully sent")
             return redirect(url_for("viewJobs"))
