@@ -1,0 +1,95 @@
+.mydiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 4px solid navy;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 50px;
+  }
+
+  .myform{
+    margin-top: 100px;
+    border: 4px solid navy;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .myJobClass{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .jobCard{
+    text-align: center;
+    border: 4px solid navy;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+ img{
+  width: 100%;
+  height: 745px;
+ }
+
+ .userDetails{
+  text-align: center;
+  border: 5px solid red;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 40px;
+ }
+ .box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 1;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  border: 2px solid navy;
+  border-radius: 20px;
+  height: 200px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+#popup{
+  align-items: center;
+}
